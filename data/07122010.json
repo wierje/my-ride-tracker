@@ -1,0 +1,56 @@
+{
+    "_links": {
+        "self": [{
+            "href": "\/v7.1\/workout\/?started_after=2010-7-12T00%3A00%3A00&offset=0&limit=20&started_before=2010-7-13T00%3A00%3A00&user=3705682"
+        }],
+        "documentation": [{
+            "href": "https:\/\/developer.underarmour.com\/docs\/v71_Workout"
+        }]
+    },
+    "_embedded": {
+        "workouts": [{
+            "start_datetime": "2010-07-12T06:00:00+00:00",
+            "name": "General Road Cycling",
+            "updated_datetime": "2010-07-14T21:32:31+00:00",
+            "created_datetime": "2010-07-14T21:32:31+00:00",
+            "notes": "",
+            "reference_key": null,
+            "start_locale_timezone": "America\/Chicago",
+            "source": "",
+            "source_manufacturer": null,
+            "_links": {
+                "self": [{
+                    "href": "\/v7.1\/workout\/26192346\/",
+                    "id": "26192346"
+                }],
+                "route": [{
+                    "href": "\/v7.1\/route\/19820962\/",
+                    "id": "19820962"
+                }],
+                "activity_type": [{
+                    "href": "\/v7.1\/activity_type\/36\/",
+                    "id": "36"
+                }],
+                "user": [{
+                    "href": "\/v7.1\/user\/3705682\/",
+                    "id": "3705682"
+                }],
+                "privacy": [{
+                    "href": "\/v7.1\/privacy_option\/1\/",
+                    "id": "1"
+                }]
+            },
+            "has_time_series": false,
+            "is_verified": false,
+            "aggregates": {
+                "active_time_total": 7399.0,
+                "distance_total": 39477.20832,
+                "steps_total": 0.0,
+                "speed_avg": 5.319776,
+                "elapsed_time_total": 7399.0,
+                "metabolic_energy_total": 4129608.0
+            }
+        }]
+    },
+    "total_count": 1
+}

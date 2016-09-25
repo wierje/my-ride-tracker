@@ -1,0 +1,32 @@
+<section>
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Title</th>
+          <th>Source</th>
+          <th>Distance</th>
+          <th>Distance</th>
+          <th>Time</th>
+          <th>Avg Heart Rate</th>
+          <th>Max Heart Rate</th>
+          <th>Calories</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in workouts">
+          <td>{{item.start_datetime | date}}</td>
+          <td>{{item.name}}</td>
+          <td>{{item.source}}</td>
+          <td>{{item.aggregates.distance_total | distance}} km</td>
+          <td>{{item.aggregates.distance_total | miles}} miles</td>
+          <td>{{item.aggregates.active_time_total | minutes}} minutes</td>
+          <td>{{item.aggregates.heartrate_avg}}</td>
+          <td>{{item.aggregates.heartrate_max}} bpm</td>
+          <td>{{item.aggregates.metabolic_energy_total | calories}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

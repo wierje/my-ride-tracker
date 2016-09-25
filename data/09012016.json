@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": [{
+            "href": "\/v7.1\/workout\/?started_after=2016-09-01T00%3A00%3A00&offset=0&limit=20&started_before=2016-09-02T00%3A00%3A00&user=3705682"
+        }],
+        "documentation": [{
+            "href": "https:\/\/developer.underarmour.com\/docs\/v71_Workout"
+        }]
+    },
+    "_embedded": {
+        "workouts": [{
+            "start_datetime": "2016-09-01T22:28:00+00:00",
+            "name": "Rode 10.65 km on 9\/1\/16",
+            "updated_datetime": "2016-09-15T17:55:15+00:00",
+            "created_datetime": "2016-09-01T22:38:38+00:00",
+            "notes": "",
+            "reference_key": "8dc6dce5-7272-4006-9d4e-5e50a398b2f9",
+            "start_locale_timezone": "America\/Chicago",
+            "source": "MapMyRide Android",
+            "source_manufacturer": "mapmyfitness",
+            "_links": {
+                "self": [{
+                    "href": "\/v7.1\/workout\/1719495872\/",
+                    "id": "1719495872"
+                }],
+                "route": [{
+                    "href": "\/v7.1\/route\/1248442321\/",
+                    "id": "1248442321"
+                }],
+                "activity_type": [{
+                    "href": "\/v7.1\/activity_type\/52\/",
+                    "id": "52"
+                }],
+                "user": [{
+                    "href": "\/v7.1\/user\/3705682\/",
+                    "id": "3705682"
+                }],
+                "privacy": [{
+                    "href": "\/v7.1\/privacy_option\/1\/",
+                    "id": "1"
+                }]
+            },
+            "has_time_series": true,
+            "is_verified": false,
+            "aggregates": {
+                "active_time_total": 1935.0,
+                "distance_total": 10710.00729216,
+                "speed_max": 16.22232,
+                "speed_min": 1.1354235,
+                "speed_avg": 5.502794,
+                "steps_total": 0.0,
+                "elapsed_time_total": 590.0,
+                "metabolic_energy_total": 2100368.0
+            }
+        }]
+    },
+    "total_count": 1
+}

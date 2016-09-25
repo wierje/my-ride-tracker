@@ -1,0 +1,60 @@
+{
+    "_links": {
+        "self": [{
+            "href": "\/v7.1\/workout\/?started_after=2016-9-22T00%3A00%3A00&offset=0&limit=20&started_before=2016-9-23T00%3A00%3A00&user=3705682"
+        }],
+        "documentation": [{
+            "href": "https:\/\/developer.underarmour.com\/docs\/v71_Workout"
+        }]
+    },
+    "_embedded": {
+        "workouts": [{
+            "start_datetime": "2016-09-22T11:41:09+00:00",
+            "name": "Rode 10.84 km on 9\/22\/16",
+            "updated_datetime": "2016-09-22T12:20:39+00:00",
+            "created_datetime": "2016-09-22T12:20:30+00:00",
+            "notes": "",
+            "reference_key": "6f4f9e70-932e-4a19-9665-46a177cac28c",
+            "start_locale_timezone": "America\/Chicago",
+            "source": "MapMyRide Android",
+            "source_manufacturer": "mapmyfitness",
+            "_links": {
+                "self": [{
+                    "href": "\/v7.1\/workout\/1765597445\/",
+                    "id": "1765597445"
+                }],
+                "route": [{
+                    "href": "\/v7.1\/route\/1283355820\/",
+                    "id": "1283355820"
+                }],
+                "activity_type": [{
+                    "href": "\/v7.1\/activity_type\/52\/",
+                    "id": "52"
+                }],
+                "user": [{
+                    "href": "\/v7.1\/user\/3705682\/",
+                    "id": "3705682"
+                }],
+                "privacy": [{
+                    "href": "\/v7.1\/privacy_option\/1\/",
+                    "id": "1"
+                }]
+            },
+            "has_time_series": true,
+            "is_verified": true,
+            "aggregates": {
+                "active_time_total": 2017.0,
+                "distance_total": 10838.6904384,
+                "speed_max": 17.175053,
+                "speed_min": 1.0755202,
+                "heartrate_min": 95.0,
+                "speed_avg": 5.3736444,
+                "heartrate_max": 152.0,
+                "elapsed_time_total": 2101.0,
+                "heartrate_avg": 135.0,
+                "metabolic_energy_total": 2083632.0
+            }
+        }]
+    },
+    "total_count": 1
+}

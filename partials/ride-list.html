@@ -1,0 +1,35 @@
+<section>
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Title</th>
+          <th>Source</th>
+          <th>Distance</th>
+          <th>Distance</th>
+          <th>Time</th>
+          <th>Avg Heart Rate</th>
+          <th>Max Heart Rate</th>
+          <th>Calories</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{rides._embedded.workouts[0].start_datetime | date}}</td>
+          <td>{{rides._embedded.workouts[0].name}}</td>
+          <td>{{rides._embedded.workouts[0].source}}</td>
+          <td>{{rides._embedded.workouts[0].aggregates.distance_total | distance}} km</td>
+          <td>{{rides._embedded.workouts[0].aggregates.distance_total | miles}} miles</td>
+          <td>{{rides._embedded.workouts[0].aggregates.active_time_total | minutes}} minutes</td>
+          <td>{{rides._embedded.workouts[0].aggregates.heartrate_avg}}</td>
+          <td>{{rides._embedded.workouts[0].aggregates.heartrate_max}} bpm</td>
+          <td>{{rides._embedded.workouts[0].aggregates.metabolic_energy_total | calories}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="container-fluid">
+    <button ng-click="saveData()">Save ride</button>
+  </div>
+</section>

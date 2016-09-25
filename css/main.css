@@ -1,0 +1,20 @@
+div {
+  margin: 15px;
+}
+
+p {
+  margin: 10px;
+}
+
+body {
+  background-color: #eee;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+{
+    "_links": {
+        "self": [{
+            "href": "\/v7.1\/workout\/?started_after=2016-9-08T00%3A00%3A00&offset=0&limit=20&started_before=2016-9-09T00%3A00%3A00&user=3705682"
+        }],
+        "documentation": [{
+            "href": "https:\/\/developer.underarmour.com\/docs\/v71_Workout"
+        }]
+    },
+    "_embedded": {
+        "workouts": [{
+            "start_datetime": "2016-09-08T22:08:43+00:00",
+            "name": "Rode 10.65 km on 9\/8\/16",
+            "updated_datetime": "2016-09-08T23:34:03+00:00",
+            "created_datetime": "2016-09-08T23:34:03+00:00",
+            "notes": "",
+            "reference_key": "6a00a167-3cf5-4963-a9dd-261859a64742",
+            "start_locale_timezone": "America\/Chicago",
+            "source": "MapMyRide Android",
+            "source_manufacturer": "mapmyfitness",
+            "_links": {
+                "self": [{
+                    "href": "\/v7.1\/workout\/1735563041\/",
+                    "id": "1735563041"
+                }],
+                "route": [{
+                    "href": "\/v7.1\/route\/1260740836\/",
+                    "id": "1260740836"
+                }],
+                "activity_type": [{
+                    "href": "\/v7.1\/activity_type\/52\/",
+                    "id": "52"
+                }],
+                "user": [{
+                    "href": "\/v7.1\/user\/3705682\/",
+                    "id": "3705682"
+                }],
+                "privacy": [{
+                    "href": "\/v7.1\/privacy_option\/1\/",
+                    "id": "1"
+                }]
+            },
+            "has_time_series": true,
+            "is_verified": true,
+            "aggregates": {
+                "active_time_total": 1935.0,
+                "distance_total": 10646.9371008,
+                "speed_max": 15.288455,
+                "speed_min": 0.46487686,
+                "speed_avg": 5.5023026,
+                "elapsed_time_total": 2236.0,
+                "metabolic_energy_total": 2079448.0
+            }
+        }]
+    },
+    "total_count": 1
+}
